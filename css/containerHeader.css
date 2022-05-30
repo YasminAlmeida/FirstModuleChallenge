@@ -1,0 +1,223 @@
+header{
+  background-image: url(../img/1/BannerBig.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 60vh;
+}
+.containerHeader{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+.containerName{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-left: 20%;
+  justify-content: space-around;
+}
+.containerName img{
+  margin-top: 20%;
+  width: 50%;
+  margin-left: 50%;
+}
+.create{
+  position: absolute;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+}
+.data{
+  display: flex;  
+  align-items: center;
+}
+.underline::after{
+  content: "";
+  display: inline-block;
+  width: 170px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+.create p{
+  font-size: 1.8rem;
+}
+.create span{
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+.button img{
+  background-color: gray;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button img:hover{
+  background-color: rgb(57, 57, 57);
+}
+.containerCharacter{
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+.containerCharacter img{ 
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  left: -80%;
+}
+@media(max-width:1250px){
+  header{
+    height: 54vh;
+  }
+  .startPlay{
+    padding-top: 10%;
+  }
+}
+@media(max-width:1150px){
+  header{
+    height: 50vh;
+  }
+}
+ @media(max-width:1020px){
+  header{
+    height: 44vh;
+  }
+  .underline h3{
+    font-size: 1.2rem;
+  }
+  .underline::after{
+    width: 115px;
+  }
+  .create p{
+    font-size: 1.5rem;
+  }
+  .create span{
+    font-size: 1.2rem;
+  }
+}
+@media(max-width:930px){
+  header{
+    height: 40vh;
+  }
+}
+@media(max-width:840px){
+  header{
+    height: 37vh;
+  }
+  .underline h3{
+    font-size: 1rem;
+  }
+  .underline::after{
+    width: 100px;
+  }
+  .create p{
+    font-size: 1.2rem;
+  }
+  .create span{
+    font-size: 1rem;
+  }
+  .data{
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:780px){
+  header{
+    height: 34vh;
+  }
+}
+@media(max-width:720px){
+  header{
+    height: 31vh;
+  }
+  .underline h3{
+    font-size: 0.8rem;
+  }
+  .underline::after{
+    width: 80px; 
+    height: 0.8px;
+    margin-bottom: 15px;
+  }
+  .data{
+    margin-bottom: 50px;
+  }
+  .button img{
+    padding: 1px;
+  }
+  .underline{
+    height: 40px;
+  }
+  .startPlay{
+    padding-top: 5%;
+  }
+}
+@media(max-width:660px){
+  header{
+    height: 28vh;
+  }
+  .containerName img {
+    margin-top: 40%;
+    width: 65%;
+    margin-left: 26%;
+  }
+}
+@media(max-width:590px){
+  header{
+    height: 25vh;
+  }
+  .underline h3{
+    font-size: 0.6rem;
+  }
+  .underline::after{
+    width: 70px; 
+    margin-bottom: 20px;
+  }
+  .data{
+    margin-bottom: 50px;
+  }
+  .button img{
+    padding: 1px;
+    width: 8px;
+  }
+  .underline{
+    height: 25px;
+  }
+  .startPlay{
+    padding-top: 5%;
+  }
+  .create p {
+    font-size: 0.8rem;
+  }
+  .create span {
+    font-size: 0.5rem;
+  }
+}
+@media(max-width:530px){
+  header{
+    height: 22vh;
+  }
+}
+@media(max-width:470px){
+  header{
+    height: 20vh;
+  }
+}
+@media(max-width:430px){
+  header{
+    height: 18vh;
+  }
+}
+@media(max-width:390px){
+  header{
+    height: 16vh;
+  }
+}
+@media(max-width:355px){
+  header{
+    height: 14vh;
+  }
+}
